@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">eGov_tema1</string>
+    <string name="muzeuNational">Muzeul National Cotroceni</string>
+    <string name="welcome">Pentru bilete electronice, completeaza urmatorul formular</string>
+    <string name="nume">Nume si prenume:</string>
+    <string name="hintNume">Popescu Alexandru</string>
+    <string name="email">Email:</string>
+    <string name="hintEmail">alexandru.popescu@gmail.com</string>
+    <string name="telefon">Telefon:</string>
+    <string name="hintTelefon">0745012985</string>
+    <string name="categorie">Tip bilet:</string>
+    <string name="categoriiPersoane">*Elevii, studentii si pensionarii beneficiaza de o reducere pe baza actului de identitate sau a legitimatiei de studii</string>
+    <string name="radioButonElevi">Elev/Student</string>
+    <string name="radioButonPensionari">Pensionar</string>
+    <string name="radioButonAdulti">Adult</string>
+    <string name="facilitati">Alte facilitati:</string>
+    <string name="taxaFoto">Taxa Foto - 20 lei</string>
+    <string name="taxaVideo">Taxa Video - 50 lei</string>
+    <string name="ghidAudio">Ghid Audio - 10 lei</string>
+    <string name="Data">Data:</string>
+    <string name="checkBoxTermeni">Sunt de acord cu termenii si conditiile enuntate.</string>
+    <string name="Cumpara">Cumpara bilet</string>
+    <string name="Genereaza">Genereaza biletul</string>
+    <string name="total">Total de plata:</string>
+    <string name="pretBilet">Pret bilet:</string>
+    <string name="lei">lei</string>
+    <string name="discount">Discount in procent de:</string>
+    <string name="procent">%</string>
+    <string name="adresa">Bucuresti, sector 6, Bd. Geniului, Nr.1-3</string>
+    <string name="program">Luni - Vineri : 9:30 - 16:30</string>
+    <string name="biletTitlu">-Bilet de acces-</string>
+    <string name="Captura">Captura de ecran</string>
+    <string name="XmlFile">XML</string>
+</resources>

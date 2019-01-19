@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    tools:context=".ss"
+    android:background="@drawable/hope"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutSS"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical">
+     <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorLightBluec"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:textSize="26dp"
+        android:text="@string/muzeuNational"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textViewTitlu"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="25dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorLightBluec"
+        android:textStyle="italic"
+        android:layout_marginLeft="15dp"
+        android:textSize="16dp"
+        android:text="@string/adresa"
+        android:id="@+id/textViewAdresa"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorLightBluec"
+        android:textStyle="italic"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"
+        android:text="@string/program"
+        android:id="@+id/textViewProgram"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorNegru"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="21dp"
+            android:text="@string/biletTitlu"
+            android:id="@+id/textViewBiletTitlu"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewNume"
+            android:layout_width="33dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:src="@drawable/nume_min" />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorNegru"
+        android:id="@+id/textViewNumeSiPrenumeSS"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewTipBilet"
+        android:src="@drawable/icon_ticket_min"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:id="@+id/textViewTipBiletSS"
+        android:textColor="@color/colorNegru"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewDiscountSS"
+        android:src="@drawable/discount_logo_min"/>
+
+        <TextView
+            android:id="@+id/textViewDiscountSS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorNegru"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/colorNegru"
+            android:text="%"
+            android:id="@+id/textViewDiscountSSProcent"
+            android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewPretBiletSS"
+        android:src="@drawable/price_icon_min"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:id="@+id/textViewPretBiletSS"
+        android:textColor="@color/colorNegru"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorNegru"
+            android:text="@string/lei"
+            android:id="@+id/textViewPretNa"
+            android:layout_weight="1"/>
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewFotoSS"
+        android:src="@drawable/foto_icon_min"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:id="@+id/textViewFotoSS"
+        android:textColor="@color/colorNegru"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewVideoSS"
+        android:src="@drawable/video_icon_min"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:id="@+id/textViewVideoSS"
+        android:textColor="@color/colorNegru"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewAudioSS"
+        android:src="@drawable/audio_icon_min"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorNegru"
+        android:id="@+id/textViewAudioSS"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/imageViewDataSS"
+        android:src="@drawable/date_icon_min"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:id="@+id/textViewDataSS"
+        android:textColor="@color/colorNegru"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+    android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewTotalSS"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/money_icon" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:id="@+id/textViewTotalSS"
+        android:textColor="@color/colorLightBluec"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/colorNegru"
+            android:layout_marginLeft="3dp"
+            android:text="@string/lei"
+            android:id="@+id/textViewTotalSSLei"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:background="@drawable/button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/takeScreenshotButton"
+            android:textColor="@color/colorNegru"
+            android:textStyle="bold"
+            android:text="@string/Captura"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
