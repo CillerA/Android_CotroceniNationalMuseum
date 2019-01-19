@@ -16,3 +16,5 @@ App's flow :
 3. Realizarea unui screenshot in vederea obtinerii ticketului virtual cu extensia .png
 4. Salvarea ticketului sub format pdf in memoria telefonului
 5. Salvarea datelor intr-o baza de date SQLite si intr-un fisier XML.
+
++ Generare rapoarte Navicat
