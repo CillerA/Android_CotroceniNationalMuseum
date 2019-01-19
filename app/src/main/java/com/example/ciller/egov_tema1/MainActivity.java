@@ -232,11 +232,6 @@ public class MainActivity extends AppCompatActivity {
                 discountTV = (TextView) findViewById(R.id.textViewDiscountGenerat);
                 pretTV = (TextView) findViewById(R.id.textViewPret);
 
-// if (!adult.isChecked() || !pensionar.isChecked() || !elev.isChecked()) {
-// discountTV.setText(String.valueOf(0));
-// pretTV.setText(String.valueOf(0));
-// p = Double.valueOf(pretTV.getText().toString());
-//}
                 p = Double.valueOf(pretTV.getText().toString());
                 totalTV = (TextView) findViewById(R.id.textViewTotalPlata);
                 fotoCB = (CheckBox) findViewById(R.id.checkBoxTaxaFoto);
